@@ -3,9 +3,9 @@
 # README for chrbrolab projects and collaborative projects
 # YoSon Park
 
-### last modified 04/27/2018
+### last modified 05/14/2018
 
-Here I outline larger project directories and files I have generated between 2015 - 2018 in the chrbrolab project space. In case of the iPSC project, I outline the work directory in the rader_chrb_lab project space. If no specific github or bitbucket repositories are referenced for the project, I also include some scripts, etc. in addition to the directory-specific README that many follow-up studies will find useful. 
+Here I outline larger project directories and files I have generated between 2015 - early 2018 in the chrbrolab project space. In case of the iPSC project, I outline the work directory in the rader_chrb_lab project space. If no specific github or bitbucket repositories are referenced for the project, I also include some scripts, etc. in addition to the directory-specific README that many follow-up studies will find useful. 
 
 
 Below are some references one may need in addition to pmacs files if involved in any of the listed studies. In many cases, there are public venues where you may find relevant data so you may not need to access these directories on pmacs.
@@ -17,7 +17,7 @@ Below are some references one may need in addition to pmacs files if involved in
   * paper to read if using GTEx v6/v6p data: [Genetic effects on gene expression across human tissues.](https://www.ncbi.nlm.nih.gov/pubmed/29022597)
 
 
-* For raw iPSC project data or many other collaborative projects involving the raderlab members, also check raderlab and rader_chrb_lab project spaces. Raw RNA-seq and genotype data of the iPSC project are uploaded to [dbGaP]() as well.
+* For raw iPSC project data or many other collaborative projects involving the raderlab members, also check raderlab and rader_chrb_lab project spaces. Raw RNA-seq and genotype data of the iPSC project are uploaded to dbGaP as well along with most other NextGen consortium samples, which our iPSC collection was a part of. One may check the public dbGaP profile under the project's full name [The National Heart, Lung, and Blood Institute (NHLBI)-funded Next Generation Genetic Association Studies (NextGen) Consortium: Phenotyping Lipid traits in iPS derived hepatocytes Study (PhLiPS Study)](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001341.v1.p1).
 
   * paper to read if using iPSC data: [Large, Diverse Population Cohorts of hiPSCs and Derived Hepatocyte-like Cells Reveal Functional Genetic Variation at Blood Lipid-Associated Loci.](https://www.ncbi.nlm.nih.gov/pubmed/28388432)
 
@@ -43,7 +43,7 @@ Below are some references one may need in addition to pmacs files if involved in
 
 
 
-If you have any questions / suggestions, etc., contact me or open an issue / pull request. I will try to get back to you.
+If you have any questions / suggestions, etc., contact me or open an issue. I may get back to you.
 
 
 

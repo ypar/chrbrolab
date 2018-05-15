@@ -3,7 +3,7 @@
 # README for the primates project directories
 # YoSon Park
 
-### last modified 05/10/2018
+### last modified 05/14/2018
 
 
 The primates project space is used by mtriz and me. The paper has been [published](https://www.ncbi.nlm.nih.gov/pubmed/28855262). Some of the relevant scripts have already been published as a separate [git repo](https://github.com/ypar/cre_evo_primates). Here I only list most of the workspace primarily used by me.
@@ -25,11 +25,11 @@ The primates project space is used by mtriz and me. The paper has been [publishe
   * [human-specific te flanking region data](#te_flanking)
 
 * [RNA-seq data and analysis results](#rnaseq)
-  *
-  *
-*
-*
-*
+  * [](#)
+  * [](#)
+  * [](#)
+  * [](#)
+* [](#)
 
 
 <!--te-->
@@ -41,7 +41,7 @@ The primates project space is used by mtriz and me. The paper has been [publishe
 
 ## aln
 
-## ase
+
 
 ## ensembl_epo
 
@@ -83,6 +83,9 @@ following subdirectories are present.
 
 ## fastq
 
+fastq files for the primates project ChIP-seq data.
+
+
 ## motif
 
 ## peaks
@@ -94,6 +97,22 @@ following subdirectories are present.
 
 
 # rnaseq
+
+
+## aln
+
+
+## fastq
+
+
+## kallisto_outputs
+
+
+## orthologs
+
+
+
+
 
 
 
