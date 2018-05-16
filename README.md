@@ -7,6 +7,8 @@
 
 Here I outline larger project directories and files I have generated between 2015 - early 2018 in the chrbrolab project space. In case of the iPSC project, I outline the work directory in the rader_chrb_lab project space. If no specific github or bitbucket repositories are referenced for the project, I also include some scripts, etc. in addition to the directory-specific README that many follow-up studies will find useful. 
 
+**I am still updating these readmes and script repositories.**
+
 
 Below are some references one may need in addition to pmacs files if involved in any of the listed studies. In many cases, there are public venues where you may find relevant data so you may not need to access these directories on pmacs.
 
