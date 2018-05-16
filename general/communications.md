@@ -2,7 +2,6 @@
 # README for lab-wide communications and other setup trivia
 # YoSon Park
 
-### last modified 04/28/2018
 
 
 ## Index

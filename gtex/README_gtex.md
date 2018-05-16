@@ -2,7 +2,7 @@
 # README for the gtex directory
 # YoSon Park
 
-### last modified 04/27/2018
+
 
 On hpc pmacs, I have made a directory where others in the chrbrolab project space may access gtex data for their own project(s). Most data available on pmacs are officially released data unless otherwise explained here. I tried to organize the subdirectories such that I don't have to add a lot of descriptions here.
 

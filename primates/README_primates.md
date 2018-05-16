@@ -3,7 +3,6 @@
 # README for the primates project directories
 # YoSon Park
 
-### last modified 05/16/2018
 
 
 The primates project space is used by mtriz and me. The paper has been [published](https://www.ncbi.nlm.nih.gov/pubmed/28855262). Some of the relevant scripts have already been published as a separate [git repo](https://github.com/ypar/cre_evo_primates). Here I only list most of the workspace primarily used by me. for any unlisted directories, contact mtriz.

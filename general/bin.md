@@ -2,7 +2,6 @@
 # README for the lab-wide software and resource directories
 # YoSon Park
 
-### last modified 05/14/2018
 
 
 For general use by chrbrolab project space users, I have, in the past, downloaded, installed and organized several commonly used tools for many lab personnel and collaborators. I no longer maintain these directories but I highly encourage others to keep following the directory organizing convention. I do not install or maintain user-specific resources for other users, e.g. R packages on user-specific environments. Also hpc pmacs common environment now (2017 and later) maintains much of the hard-to-install software or modules. I list these subdirectories here so one may look up relevant websites and references for their own applications. Index is provided for quick lookups but one may search for specific software as well.
@@ -190,6 +189,7 @@ FastQC can be run on the resulting output files once trimming has completed (opt
 
 
 ## bin/src/germline
+
 
 
 

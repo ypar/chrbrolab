@@ -3,7 +3,7 @@
 # README for chrbrolab projects and collaborative projects
 # YoSon Park
 
-### last modified 05/14/2018
+
 
 Here I outline larger project directories and files I have generated between 2015 - early 2018 in the chrbrolab project space. In case of the iPSC project, I outline the work directory in the rader_chrb_lab project space. If no specific github or bitbucket repositories are referenced for the project, I also include some scripts, etc. in addition to the directory-specific README that many follow-up studies will find useful. 
 
@@ -53,13 +53,14 @@ If you have any questions / suggestions, etc., contact me or open an issue. I ma
 
 <!--ts-->
 
+
 * [intro to pmacs; read if you are new to the chrbrolab project space or new to linux](https://github.com/ypar/chrbrolab/blob/master/onboarding/welcome2cdb_v0.1.md)
 
-* [analyses reference data directories](https://github.com/ypar/chrbrolab/blob/master/general/README_reference.md)
+* [analyses reference data directories](https://github.com/ypar/chrbrolab/blob/master/general/references.md)
 
-* [lab-wide software and resource directories](https://github.com/ypar/chrbrolab/blob/master/general/README_bin.md)
+* [lab-wide software and resource directories](https://github.com/ypar/chrbrolab/blob/master/general/bin.md)
 
-* [lab-wide communications and other setup trivia](https://github.com/ypar/chrbrolab/blob/master/general/README_comm.md)
+* [lab-wide communications and other setup trivia](https://github.com/ypar/chrbrolab/blob/master/general/communications.md)
 
 * [gtex project directories](https://github.com/ypar/chrbrolab/blob/master/gtex/README_gtex.md)
 
