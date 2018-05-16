@@ -113,7 +113,7 @@ Source codes, etc. for the executables in the local directory are located here. 
 
 ## bin/src/ensembl
 
-Most ensembl tools were used to test for the [primates project](https://github.com/ypar/chrbrolab/blob/master/primates/README_primates.md). However, 
+Most ensembl tools were used to test for the [primates project](https://github.com/ypar/chrbrolab/blob/master/primates/README_primates.md).
 
 ## bin/src/ensembl_bioperl
 
@@ -134,6 +134,14 @@ Most ensembl tools were used to test for the [primates project](https://github.c
 
 ## bin/src/cutadapt-1.3
 
+cutadapt manual is [here](http://cutadapt.readthedocs.io/en/stable/guide.html). Following is an excerpt from the official website:
+
+> Cutadapt finds and removes adapter sequences, primers, poly-A tails and other types of unwanted sequence from your high-throughput sequencing reads.
+
+> Cleaning your data in this way is often required: Reads from small-RNA sequencing contain the 3’ sequencing adapter because the read is longer than the molecule that is sequenced. Amplicon reads start with a primer sequence. Poly-A tails are useful for pulling out RNA from your sample, but often you don’t want them to be in your reads.
+
+> Cutadapt helps with these trimming tasks by finding the adapter or primer sequences in an error-tolerant way. It can also modify and filter reads in various ways. Adapter sequences can contain IUPAC wildcard characters. Also, paired-end reads and even colorspace data is supported. If you want, you can also just demultiplex your input data, without removing adapter sequences at all.
+
 
 
 ## bin/src/FastQC
@@ -147,7 +155,6 @@ FastQC is a quality control tool for high throughput sequence data and any updat
 >> Summary graphs and tables to quickly assess your data
 >> Export of results to an HTML based permanent report
 >> Offline operation to allow automated generation of reports without running the interactive application
-
 
 
 
@@ -173,6 +180,8 @@ TrimGalore! is a perl script wrapper for [Cutadapt](https://github.com/marcelm/c
 
 
 ## bin/src/Q
+
+
 
 ## bin/src/germline
 
@@ -215,17 +224,31 @@ The following paper provides the rationale for the methods implemented in spp:
 
 ## bin/src/impute_v2.3.2_x86_64_static
 
+Often used with shapeit2, impute2 imputes genotype or sequencing data. 
+
+Detailed information can be found [here](http://mathgen.stats.ox.ac.uk/impute/impute_v2.html). Citation for the core algorithm is this paper: [B. N. Howie, P. Donnelly, and J. Marchini (2009) A flexible and accurate genotype imputation method for the next generation of genome-wide association studies. PLoS Genetics 5(6): e1000529](http://www.plosgenetics.org/article/info%3Adoi%2F10.1371%2Fjournal.pgen.1000529). If you use the consmopolitan panel (i.e. multiple ethnicity rather than pre-selecting one's reference population), also cite this paper: [B. Howie, J. Marchini, and M. Stephens (2011) Genotype imputation with thousands of genomes. G3: Genes, Genomics, Genetics 1(6): 457-470](http://www.g3journal.org/content/1/6/457.full).
+
+** both phasing and imputation may be done on efficient and convenient servers maintained by [Sanger Imputation Service](https://imputation.sanger.ac.uk/) or the [Michigan Imputation Server](https://imputationserver.sph.umich.edu/index.html) rather than on the local computing cluster.**
 
 
 ## bin/src/shapeit.v2
 
+Shapeit is used to estimate the haplotypes of genotype or sequencing data. Detailed information and manual are available [here](https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html). The core algorithm used for shapeit2 is described here: [O. Delaneau, J. Marchini, JF. Zagury (2012) A linear complexity phasing method for thousands of genomes. Nat Methods. 9(2):179-81. doi: 10.1038/nmeth.1785](http://www.nature.com/nmeth/journal/v9/n2/full/nmeth.1785.html/)
+
+** both phasing and imputation may be done on efficient and convenient servers maintained by [Sanger Imputation Service](https://imputation.sanger.ac.uk/) or the [Michigan Imputation Server](https://imputationserver.sph.umich.edu/index.html) rather than on the local computing cluster.**
 
 
 
 
 ## bin/src/liftover
 
+I downloaded a standalone copy of liftover from the [utilities directory of ucsc genome browser](http://hgdownload.soe.ucsc.edu/admin/exe/). The web version of liftover can be accessed [here](http://genome.ucsc.edu/cgi-bin/hgLiftOver). 
+
+
+
 ## bin/src/rsem-1.2.20
+
+
 
 ## bin/src/STAR-STAR_2.4.2a
 
@@ -235,10 +258,22 @@ I primarily locally installed star for consistency in large-scale data processin
 module load STAR-2.5.2a
 ```
 
+for the latest software, check out their [github repo](https://github.com/alexdobin/STAR). 
+
+the original star paper is here:
+
+[Dobin A, Davis CA, Schlesinger F, Drenkow J, Zaleski C, Jha S, Batut P, Chaisson M, Gingeras TR., STAR: ultrafast universal RNA-seq aligner. Bioinformatics. 2013 Jan 1;29(1):15-21. doi: 10.1093/bioinformatics/bts635. Epub 2012 Oct 25.](https://www.ncbi.nlm.nih.gov/pubmed/23104886)
+
+
+
 
 ## bin/src/aseq-v1.1.8
 
+
+
 ## bin/src/bolt-lmm
+
+
 
 ## bin/src/EXTREME-2.0.0
 
@@ -316,13 +351,20 @@ Following is an excerpt from the official website:
 
 ## bin/src/plink
 
+I have downloaded plink v1.90b3.32 64-bit from the [official website](https://www.cog-genomics.org/plink2), which is referred as to plink2 in many contexts as a contrast to the original [plink](http://zzz.bwh.harvard.edu/plink/). As of 2018, however, I recommend one uses [plink v2.0](https://www.cog-genomics.org/plink/2.0/).
+
+
 ## bin/src/kallisto
 
 ## bin/src/kallisto-0.42.2.1
 
 ## bin/src/leafcutter
 
-Leafcutter paper is now [published](https://www.nature.com/articles/s41588-017-0004-9).
+Leafcutter paper is now [published](https://www.nature.com/articles/s41588-017-0004-9). 
+
+
+## bin/src/leafcutter-master
+
 
 
 ## bin/src/fusion_twas-master
@@ -338,7 +380,7 @@ Leafcutter paper is now [published](https://www.nature.com/articles/s41588-017-0
 
 ## bin/src/stack
 
-## bin/src/picard
+
 
 ## bin/src/texlive
 
@@ -359,7 +401,6 @@ Leafcutter paper is now [published](https://www.nature.com/articles/s41588-017-0
 
 ## bin/src/subread-1.4.6-p5-Linux-x86_64
 
-## bin/src/leafcutter-master
 
 
 ## bin/src/FastQTL_2.814
@@ -385,9 +426,18 @@ module load eQtlBma-1.3.1
 
 ## bin/src/bcftools
 
+
 ## bin/src/peer
 
+
+
+## bin/src/picard
+
+
 ## bin/src/gatk
+
+
+
 
 ## bin/src/bedtools2
 
