@@ -206,7 +206,7 @@ I placed some plots used to assess ChIP-seq analysis results.
 ## te_flanking
 
 
-
+TE flanking region analysis results are here. 
 
 
 

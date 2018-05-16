@@ -4,7 +4,7 @@
 
 ### last modified 04/26/2018
 
-On hpc pmacs environment, I have set up directories and downloaded reference files for several useful resources of general use. For future projects, I also list websites where one may find additional or updated information on relevant files.
+On hpc pmacs environment, I have set up directories and downloaded reference files for several useful resources of general use. For future projects, I also list websites where one may find additional or updated information on relevant files. While I stopped updating these directories, hopefully other users of the chrbrolab project space find the references and citations useful.
 
 
 

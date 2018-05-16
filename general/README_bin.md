@@ -69,7 +69,10 @@ For general use by chrbrolab project space users, I have, in the past, downloade
 
   * [bin/src/kallisto](#binsrckallisto)
   * [bin/src/kallisto-0.42.2.1](#binsrckallisto-04221)
+  
   * [bin/src/leafcutter](#binsrcleafcutter)
+  * [bin/src/leafcutter-master](#binsrcleafcutter-master)
+
   * [bin/src/fusion_twas-master](#binsrcfusion_twas-master)
 
   * [bin/src/CrossMap-0.2.5](#binsrccrossmap-025)
@@ -85,7 +88,7 @@ For general use by chrbrolab project space users, I have, in the past, downloade
   * [bin/src/gcta_1.24.7](#binsrcgcta_1247)
   
   * [bin/src/subread-1.4.6-p5-Linux-x86_64](#binsrcsubread-146-p5-linux-x86_64)
-  * [bin/src/leafcutter-master](#binsrcleafcutter-master)
+
   * [bin/src/eqtlbma](#binsrceqtlbma)
   * [bin/src/GEMMA](#binsrcgemma)
   * [bin/src/sleuth](#binsrcsleuth)
