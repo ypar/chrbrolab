@@ -180,7 +180,7 @@ The gencode annotation file downloaded from the [official website](https://www.g
 
 # geuvadis
 
-I downloaded some RNA-seq expression files and metadata from the [geuvadis project](https://www.ebi.ac.uk/Tools/geuvadis-das/). Geuvadis RNA-sequencing project uses mRNA and small RNA sequencing data from the same lymphoblastoid cell lines of 465 individuals included in the 1000 genomes project. Files were downloaded from ftp site (example fastq file: `ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR188/ERR188021/ERR188021_1.fastq.gz`).
+I downloaded some RNA-seq expression files and metadata from the [geuvadis project](https://www.ebi.ac.uk/Tools/geuvadis-das/). Geuvadis RNA-sequencing project uses mRNA and small RNA sequencing data from the same lymphoblastoid cell lines of 465 individuals included in the 1000 genomes project. Files were downloaded from ftp site (example fastq file: `ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR188/ERR188021/ERR188021_1.fastq.gz`). I have delted bam files from the local directories after use. One may download them from the geuvadis project website if necessary.
 
 
 

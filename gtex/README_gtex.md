@@ -28,7 +28,8 @@ On hpc pmacs, I have made a directory where others in the chrbrolab project spac
     * [data/GTEx_v6p_metadata](#datagtex_v6p_metadata)
     * [data/GTEx_Analysis_v6p_eQTL_expression_matrices_internal](#datagtex_analysis_v6p_eqtl_expression_matrices_internal)
   * [subdir for GTEx v7 data](#gtex-v7-data)
-    * [data/GTEx_v7_metadata](#datagtex-v7-metadata)
+    * [data/GTEx_v7_genotype](#datagtex_v7_genotype)
+    * [data/GTEx_v7_metadata](#datagtex_v7_metadata)
     * [data/GTEx_Analysis_v7_eQTL_raw_expression_matrices](#datagtex_analysis_v7_eqtl_raw_expression_matrices)
     * [data/GTEx_Analysis_v7_eQTL_normalized_expression_matrices](#datagtex_analysis_v7_eqtl_normalized_expression_matrices)
   * [subdir for GTEx v8 data](#gtex-v8-data)
@@ -158,6 +159,11 @@ Sample count per tissue:
 ![sample_count](https://github.com/ypar/chrbrolab/blob/master/gtex/misc_plots/tdsNumSamplesByTissuesBarChart.svg)
 
 ^ above sample count plot is downloaded from [the official website](https://gtexportal.org/home/tissueSummaryPage)
+
+
+### data/GTEx_v7_genotype
+
+In this directory, I downloaded the official release of GTEx Whole Genome Sequences (WGS) for dbGaP accession number: phs000424.v7.p1 (release v7, GTEx_Analysis_2016-01-15). Detailed information is provided within the README of the directory. 
 
 
 ### data/GTEx_v7_metadata
