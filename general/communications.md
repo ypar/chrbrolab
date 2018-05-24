@@ -12,6 +12,7 @@
 * [google drive](#gdrive)
 * [google cloud platform](#gcp)
 * [dropbox](#dropbox)
+* [vpn](#vpn)
 
 <!--te-->
 
@@ -47,4 +48,35 @@ This is seldom used but will be useful if you have lab protocols, etc. that need
 
 
 
+
+# vpn
+
+Here is an instruction for vpn setup for pmacs off campus:
+
+```
+SETTING VPN
+===========
+1. Download and install Forticlient from http://forticlient.com/#download
+2. After successful installation, open application as:
+  Go —> Applications —> Forticlient
+3. Within FortiClient application, setup credentials as:
+  (a) Click “Remote Access”
+  (b) ONE time only: click settings icon next to [VPN Name] field —> select "Add a new connection" and fill information as:
+      VPN Type —> SSL VPN
+      Connection Name —> PMACS
+      Description —>
+      Remote Gateway —> juneau.med.upenn.edu
+                      port: 443
+      Client Certificate —> None
+      Authentication —>
+      Username —> <your-pmacs-username>
+      Apply
+4. Provide just created credentials in the “Remote Access” tab
+  VPN Name —> PMACS
+  Username —> <your-pmacs-username>
+  Password —> <your-pmacs-password>
+  Connect
+5. Open terminal and ssh to PMACS:
+  ssh username@consign.pmacs.upenn.edu
+```
 

@@ -5,7 +5,9 @@
 
 
 
-Here I outline larger project directories and files I have generated between 2015 - early 2018 in the chrbrolab project space. In case of the iPSC project, I outline the work directory in the rader_chrb_lab project space. If no specific github or bitbucket repositories are referenced for the project, I also include some scripts, etc. in addition to the directory-specific README that many follow-up studies will find useful. 
+Here I outline larger project directories and files I have generated between 2015 - early 2018 in the chrbrolab project space.  
+
+In case of the iPSC project, I outline the work directory in the rader_chrb_lab project space. If no specific github or bitbucket repositories are referenced for the project, I also include some scripts, etc. in addition to the directory-specific README that many follow-up studies will find useful. 
 
 **I am still updating these readmes and script repositories.**
 
