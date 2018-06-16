@@ -11,7 +11,7 @@ So far (Dec 2017), I have made the following changes to make this master list fr
 
 
 
-# StudyInfo file condition (cell type) mislabelling or multi-labelling
+## StudyInfo file condition (cell type) mislabelling or multi-labelling
 
 There are five cell/tissue types used for the Pashos, Park et al (2017) CSC paper: iPSC, HLC, human primary hepatocytes, human liver (chicago) and human liver (gtex). GTEx samples were processed from fastq files I transferred from dbGaP. The other four were sequenced and processed at Penn. There were three different 'project' names these samples were assigned to internally: DREP, DRSE, and DRRB. As far as samples and all downstream processing and analyses are concerned, separating samples into these three projects does not seem necessary. As I was applying corrected sample IDs, I have also collapsed three project spaces to make shorter, more comprehensible directory structures.
 
@@ -22,26 +22,26 @@ There are five cell/tissue types used for the Pashos, Park et al (2017) CSC pape
 
 
 
-# error in the StudyInfo file format
+## error in the StudyInfo file format
 
 * New column ‘subjectid' is created by merging missing data in ‘SAMP_sid’ (lists subject IDs for most samples) with ‘SAMP_name’ (lists subject IDs for some samples) 
 
 
 
-# error in sample submission (retrospective discovery from gene expression and genotype QC)
+## error in sample submission (retrospective discovery from gene expression and genotype QC)
 
 * Subject 781, COND_name= ‘hepatocyte’ in batch DREP-iPSHepat (but not in DRSE-EviPilot or DRRB-Liver, if any) are changed to ‘iPSC’ — said to be swapped at NGSC submission stage
 * Subject 781, COND_name = ‘iPSC’ in batch DREP-iPSHepat (but not in DRSE-Evipilot or DRRB-Liver, if any) are changed to ‘HLC’ — said to be swapped at NGSC submission stage
 
 
 
-# typoes in Study Info
+## typoes in Study Info
 
 * Subject id ‘126-1050’ is an incorrectly labelled ID of ‘126-1650’. The final list will replace all ‘126-1050’ to ‘126-1650’
 
 
 
-# samples with multiple subject IDs
+## samples with multiple subject IDs
 
 * Subjects with prefix ‘hiPS’ now have prefixes removed to be consistent with the remaining samples.
   * List of subject IDs from three StudyInfo files combined that do not match any sample dictionary subjects: 'hiPS 113-1138', 'hiPS 161', 'hiPS 225’, 'hiPS 245', 'hiPS 254', 'hiPS 286', 'hiPS 312', 'hiPS 316’, 'hiPS 321', 'hiPS 334', 'hiPS 340', 'hiPS 44-136', 'hiPS 486’,
@@ -49,7 +49,7 @@ There are five cell/tissue types used for the Pashos, Park et al (2017) CSC pape
 
 
 
-# samples with multiple clone IDs, arbitrary NGSC core-assigned suffixes, possible typoes and excel errors.
+## samples with multiple clone IDs, arbitrary NGSC core-assigned suffixes, possible typoes and excel errors.
 
 * ‘M1’ is labelled as ‘M1-H10-1304’ in the genotypes. the final list will be matched to ‘M1’
 * ‘MR43’ is labelled as ‘SV20’ in the genotypes. There are also other SV# and MR# in other records said to be the same subject. The final list will be matched to ‘MR43’
@@ -73,7 +73,7 @@ There are five cell/tissue types used for the Pashos, Park et al (2017) CSC pape
 
 
 
-# formatting changes for convenience
+## formatting changes for convenience
 
 * Hyphens from all raw fastq files are removed for raderlab directory storage. E.g. FGC1297_s_4_1_TCCGCGAATATAGCCT.fastq.gz rather than FGC1297_s_4_1_TCCGCGAA-TATAGCCT.fastq.gz
 * All raw fastq files subdirectories as well as dbGaP submission will be based on dbGaP IDs rather than internal IDs. E.g. 126-1650, iPSC, would be referred by dbGaP ID Penn126i-120-1-iPSC. This was done due to cleaner/newer nature of the dbGaP IDs created after most other iterations/versions of the internal IDs have taken place.
