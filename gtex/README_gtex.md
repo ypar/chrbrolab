@@ -47,6 +47,7 @@ On hpc pmacs, I have made a directory where others in the chrbrolab project spac
     * [results/GTEx_Analysis_v6_eQTL](#resultsgtex_analysis_v6_eqtl)
     * [results/GTEx_Analysis_v6_metasoft](#resultsgtex_analysis_v6_metasoft)
     * [results/GTEx_Analysis_v6p_eQTL](#resultsgtex_analysis_v6p_eqtl)
+    * [results/GTEx_Analysis_v6p_eQTL_ld_proxies](#resultsgtex_analysis_v6p_eqtl_ld_proxies)
     * [results/GTEx_Analysis_v6p_metasoft](#resultsgtex_analysis_v6p_metasoft)
     * [results/GTEx_Analysis_v6p_metatissue](#resultsgtex_analysis_v6p_metatissue)
   * [subdir for GTEx v7 results](#gtex-v7-results)
@@ -278,6 +279,10 @@ Vagina
 Whole_Blood
 ```
 
+
+### results/GTEx_Analysis_v6p_eQTL_ld_proxies
+
+I used plink v 1.09 to estimate ld and find ld proxy variants from each of the genome-wide significant eQTLs (q<0.05). an example script is [here](https://github.com/ypar/chrbrolab/blob/master/gtex/finemapping/ld_gtex450_allsigeqtl.py).
 
 
 ### results/GTEx_Analysis_v6p_metasoft
