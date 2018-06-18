@@ -47,6 +47,7 @@ On hpc pmacs, I have made a directory where others in the chrbrolab project spac
   * [subdir for GTEx v6 results](#gtex-v6-results)
     * [results/GTEx_Analysis_v6_eQTL](#resultsgtex_analysis_v6_eqtl)
     * [results/GTEx_Analysis_v6_metasoft](#resultsgtex_analysis_v6_metasoft)
+    * [results/GTEx_Analysis_v6p_coloc](#resultsgtex_analysis_v6p_coloc)
     * [results/GTEx_Analysis_v6p_eQTL](#resultsgtex_analysis_v6p_eqtl)
     * [results/GTEx_Analysis_v6p_eQTL_ld_proxies](#resultsgtex_analysis_v6p_eqtl_ld_proxies)
     * [results/GTEx_Analysis_v6p_eQTL_ld_proxies_100kbps_sentinel](#resultsgtex_analysis_v6p_eqtl_ld_proxies_100kbps_sentinel)
@@ -232,9 +233,101 @@ Whole_Blood
 
 ## GTEx v6 results
 
+
 ### results/GTEx_Analysis_v6_eQTL
 
 ### results/GTEx_Analysis_v6_metasoft
+
+
+
+### results/GTEx_Analysis_v6p_coloc
+
+I estimated posterior probabilities of colocalization between 70 GWAS traits with 44 GTEx tissues. I only included loci with at least one genome-wide significant GWAS variant and at least one genome-wide significant eQTL. For each chosen eGene, only variants associated with the specific gene of choice are used for each locus. I have also annotated these regions for downstream analyses in this file:
+
+```coloc_gwas_p5e-8_eqtl_q05_gtex_v6p_main_paper_gencode_v19_ld.txt.gz```
+
+The following traits were included:  
+```
+Anderson_Ulcerative_colitis
+Bentham_SLE
+CARDIoGRAM
+CARDIoGRAM_CAD_add
+CARDIoGRAM_CHD
+CARDIoGRAM_MI_add
+CD_EUR
+CD_EUR2
+CHARGE_161n7
+CHARGE_180
+CHARGE_181n9
+CHARGE_N3_DPA
+CHARGE_T18_2_ct
+Cooper_T1D
+Cordell_PBC
+DIAGRAM_Gaulton
+Dubois_Celiac
+GIANT_BMI_All
+GIANT_BMI_EUR
+GIANT_ExtremeHeight_Stage1
+GIANT_HIP_All
+GIANT_HIP_Eur
+GIANT_HIPadjBMI_All
+GIANT_HIPadjBMI_Eur
+GIANT_HIPadjBMI_Females_All
+GIANT_HIPadjBMI_Females_Eur
+GIANT_HIPadjBMI_Males_All
+GIANT_HIPadjBMI_Males_Eur
+GIANT_Obesity1_Stage1
+GIANT_Obesity2_Stage1
+GIANT_Overweight_Stage1
+GIANT_WC_All
+GIANT_WC_Eur
+GIANT_WCadjBMI_All
+GIANT_WCadjBMI_Eur
+GIANT_WHR_All
+GIANT_WHR_Eur
+GIANT_WHRadjBMI_All
+GIANT_WHRadjBMI_Eur
+GIANT_WHRadjBMI_Females_All
+GIANT_WHRadjBMI_Females_Eur
+GIANT_WHRadjBMI_Males_All
+GIANT_WHRadjBMI_Males_Eur
+GLGC_HDLC
+GLGC_LDLC
+GLGC_TC
+GLGC_TG
+Heartrate
+IBD_EUR
+IC_IMSGC_MS
+IC_LIU_PBC
+IGAP
+IGAP_stage1
+IMSGC_Multiple_sclerosis
+MAGIC_FG
+MAGIC_IS_CIR
+MAGIC_IS_CIRISI
+MAGIC_IS_DI
+MAGIC_MC_2hGlu
+MAGIC_MC_FG
+MAGIC_MC_FI
+MAGIC_MC_FIadjBMI
+MAGIC_lnHOMAB
+MAGIC_lnfastingProinsulin
+Okada_Rheumatoid_arthritis
+PGCCROSS
+PGC_BIP
+PGC_SCZ
+Stahl_Rheumatoid_arthritis
+UC_EUR
+```
+
+summary and results files containing all variants tested for each gene are located in respective tissue directories in the following naming conventions:
+
+```
+${trait}_w_${tissue}_${geneid}_results.txt
+${trait}_w_${tissue}_${geneid}_summary.txt
+```
+
+
 
 ### results/GTEx_Analysis_v6p_eQTL
 
