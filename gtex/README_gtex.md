@@ -49,6 +49,7 @@ On hpc pmacs, I have made a directory where others in the chrbrolab project spac
     * [results/GTEx_Analysis_v6_metasoft](#resultsgtex_analysis_v6_metasoft)
     * [results/GTEx_Analysis_v6p_eQTL](#resultsgtex_analysis_v6p_eqtl)
     * [results/GTEx_Analysis_v6p_eQTL_ld_proxies](#resultsgtex_analysis_v6p_eqtl_ld_proxies)
+    * [results/GTEx_Analysis_v6p_eQTL_ld_proxies_100kbps_sentinel](#resultsgtex_analysis_v6p_eqtl_ld_proxies_100kbps_sentinel)
     * [results/GTEx_Analysis_v6p_metasoft](#resultsgtex_analysis_v6p_metasoft)
     * [results/GTEx_Analysis_v6p_metatissue](#resultsgtex_analysis_v6p_metatissue)
   * [subdir for GTEx v7 results](#gtex-v7-results)
@@ -290,6 +291,37 @@ Whole_Blood
 ### results/GTEx_Analysis_v6p_eQTL_ld_proxies
 
 I used plink v 1.09 to estimate ld and find ld proxy variants from each of the genome-wide significant eQTLs (q<0.05). an example script is [here](https://github.com/ypar/chrbrolab/blob/master/gtex/finemapping/ld_gtex450_allsigeqtl.py).
+
+
+
+### results/GTEx_Analysis_v6p_eQTL_ld_proxies_100kbps_sentinel
+
+For this directory, I generated ld proxies for sentinel SNPs only. I have also generated annotated tables for downstream analyses.  
+
+the following columns are included per file  
+
+within header, the suffix \_variant indicates the variant of interest and \_sentinel indicates the variant that has been tagged as the sentinel variant
+in one or more eGenes in the given tissue for the eQTL scan by GTEx  
+
+* rs_id_dbSNP142_GRCh37p13_variant: rsID of the variant in the genome-wide significant eqtl file
+* SNP_variant: gtex common variant ID
+* is_genomewide_eqtl_variant: 1 if variant is included in the genome-wide eqtl file
+* MAF_variant: within-data maf of the bvariant
+* SNP_sentinel: sentinel SNP
+* MAF_sentinel: within data maf of the sentinel SNP
+* R2: r2 estimated from 450 inds in gtex genotype between the variant and the sentinel
+* gene_variant: gene assigned to the variant in the genome-wide eqtl results file
+* gene_name_variant: common gene name for gene_variant
+* orientation_variant: strand orientation of the gene_variant
+* tss_distance_variant: distance to tss from the variant
+* gene_sentinel: gene assigned to the sentinel in the genome-wide eqtl results file
+* gene_name_sentinel: common gene name for the sentinel
+* rs_id_dbSNP142_GRCh37p13_sentinel: rsID of the sentinel
+* orientation_sentinel: strand orientation of the gene_sentinel
+* tss_distance_sentinel: distance to tss from the sentinel
+
+
+
 
 
 ### results/GTEx_Analysis_v6p_metasoft
