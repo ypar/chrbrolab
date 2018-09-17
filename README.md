@@ -9,7 +9,7 @@ Here I outline larger project directories and files I have generated between 201
 
 In case of the iPSC project, I outline the work directory in the rader_chrb_lab project space. If no specific github or bitbucket repositories are referenced for the project, I also include some scripts, etc. in addition to the directory-specific README that many follow-up studies will find useful. 
 
-**I am still updating these readmes and script repositories.**
+**these readmes and scripts may get periodically updated with new data releases and new publication links**
 
 
 Below are some references one may need in addition to pmacs files if involved in any of the listed studies. In many cases, there are public venues where you may find relevant data so you may not need to access these directories on pmacs.
@@ -44,6 +44,13 @@ Below are some references one may need in addition to pmacs files if involved in
 
 
 * For project data involving splicing analyses, check barashlab project space or relevant bitbucket repositories.
+
+
+* For data used as validation sets, etc., check relevant documentations and publications to identify their sources.
+  * papers to read if using CLI data:
+  [Identification, Replication, and Functional Fine-Mapping of Expression Quantitative Trait Loci in Primary Human Liver Tissue](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002078)
+  [Integrative Modeling of eQTLs and Cis-Regulatory Elements Suggests Mechanisms Underlying Cell Type Specificity of eQTLs](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003649)
+
 
 
 
